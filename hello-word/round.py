@@ -1,5 +1,6 @@
-SIZE = 7
+SIZE = 5
 array = [[0] * SIZE]
+print(array)
 # 创建一个长度SIZE * SIZE的二维列表
 for i in range(SIZE - 1):
     array += [[0] * SIZE]

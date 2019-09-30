@@ -20,11 +20,11 @@
 #     #
 #     index += 1
 #     while True:
-#         # mon = input('请下注： ')
+#         mon = input('请下注： ')
 #         # if(index % 2 == 0):
 #         #     mon = '100'
 #         # else:
-#         mon = '100000'
+#         # mon = '100000'
 #         if(mon.isdigit()):
 #             debt = int(mon)
 #         else:
@@ -32,36 +32,36 @@
 #         if 0 < debt <= money:  # (if debt >0 and debt <= money)
 #             break
 #     first_point = roll_dice()
-#     # print('玩家摇出了%d点' % first_point)
+#     print('玩家摇出了%d点' % first_point)
 #     go_on = False
 #     if first_point == 7 or first_point == 11:
-#         # print('玩家胜!')
+#         print('玩家胜!')
 #         money += debt
-#         plearA += 1
+#         # plearA += 1
 #     elif first_point == 2 or first_point == 3 or first_point == 12:
-#         # print('庄家胜!')
+#         print('庄家胜!')
 #         money -= debt
-#         plearB += 1
+#         # plearB += 1
 #     else:
 #         go_on = True
 #     while go_on:
 #         current_point = roll_dice()
-#         # print('庄家摇出了%d点' % current_point)
+#         print('庄家摇出了%d点' % current_point)
 #         if current_point == 7:
-#             # print('庄家胜!')
+#             print('庄家胜!')
 #             money -= debt
 #             go_on = False
-#             plearB += 1
+#             # plearB += 1
 #         elif current_point == first_point:
 #             # print('玩家胜!')
 #             money += debt
 #             go_on = False
-#             plearA += 1
+#             # plearA += 1
 
 # if __name__ == '__main__':
 #     print('你已经破产，游戏结束！')
-#     print('玩家胜利次数%d' % plearA)
-#     print('庄家胜利次数%d' % plearB)
+    # print('玩家胜利次数%d' % plearA)
+    # print('庄家胜利次数%d' % plearB)
 
 # ------------------------------------------------------------------------
 # import pandas as pd
@@ -225,12 +225,12 @@
 # -----------------------------------------------------------
 # # 1.让用户输入 最大和 最小数
 # from random import randint
-# # import random
+# import random
 # max_num = int(input('来了老弟, 请你输入要猜的最大数字吧'))
 # min_num = int(input('来了老弟, 请你输入要猜的最小数字吧'))
 # # 2. 生成[min_num, max_num] 的一个随机数
 # generate_num = randint(min_num, max_num)
-# # random.randint(min_num, max_num)
+# random.randint(min_num, max_num)
 # # 3. 声明一个猜数字次数的变量,并进入循环
 # count = 0
 # while True:
@@ -351,7 +351,10 @@
 #     print('value:', value)
 
 # a_range = range(10)
-# 对a_range执行for表达式
+# # 对a_range执行for表达式
 # a_list = [x * x for x in a_range]
-# a_list集合包含10个元素
+# # a_list集合包含10个元素
 # print(a_range)
+
+# for a in range(1, 21):
+#     print(a)
